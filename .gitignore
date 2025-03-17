@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="max-w-full min-h-full ">
+    <div class="container text-center w-full">
+        <nav class="container flex items-center justify-between">
+            <img class="h-15 w-15 ml-16" src="images\Askmeidentity 2.png" alt="">  
+            <div class="flex items-center space-x-3">
+                <a href="#" class="py-4 px-2 font-semibold font-mono hover:underline"> Home </a>
+                <a href="#" class="py-4 px-2 font-semibold font-mono hover:underline"> About </a>
+                <a href="#" class="py-4 px-2 font-semibold font-mono hover:underline"> Courses </a>
+                <a href="#" class="py-4 px-2 font-semibold font-mono hover:underline"> Contact </a>
+            </div>
+            <img class="h-5" src="images\Group 1.png" alt="">
+            <a class="text-gray-700 underline font-mono" href="">Login</a>
+            <button type="submit" class="bg-blue-500 text-white rounded pl-5 pr-5 pt-2 pb-2
+            hover:bg-blue-900 font-mono">
+                Signup
+        </button>    
+        </nav>
+    </div>
+    <div class="container bg-blue-700 justify-between max-w-full h-auto flex relative">
+        <div class="pb-32 w-1/3 ml-20 h-2/3">
+            <div class="mb-10">
+                <h6 class="uppercase font-mono text-white text-sm font-light pt-32">Successful coaches are visionaries</h6>
+                <br>
+                <h1 class="text-white leading-10 font-extrabold text-4xl">Good coaching is <br> good teaching & <br> nothing else.</h1>
+            </div>
+            <div>
+                <button class="border border-white rounded p-1 font-mono text-white text-sm font-thin hover:shadow-outline">
+                    View Courses
+                </button>
+                <span class="text-white text-2xs font-light font-mono pl-10">Get Free Consultation</span> 
+            </div>
+            <br>
+            <div class="bg-white w-auto p-3 flex rounded-xl justify-between">
+                <input class=" text-gray-300 border-none text-xs" type="text" placeholder="What do you want to learn today?">
+                <button class="bg-blue-700 rounded text-white text-xs font-mono pl-3 pr-3 p-1 flex"><svg class="h-4 pr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  Search</button>           
+            </div>           
+        </div>
+        <div class="mt-32 flex h-24 relative">
+            <div>
+                <img class="h-24" src="images\Group 1000014970.png" alt="">
+            </div>
+            <div class="ml-4">
+                <p class="text-white font-bold text-sm">Shyam</p>
+                <p class="text-white text-xs">In a coaching role, you ask the <br>questions and rely more on your <br> 
+                    staff, who become the experts, to <br> provide the information.</p>
+                <p class="text-blue-600 text-xs font-sans">4.9</p>
+            </div>  
+            <div class="">
+                <img class="h-32" src="images\Group 1000014989.png" alt="">
+            </div> 
+        </div>        
+        <div class="pr-12 mt-10">
+            <img class="w-64" src="images\Image20241212184741.png" alt="">
+        </div>
+         
+    </div>
+    <div class="bg-blue-900  h-20 w-full box-border shadow-2xl ">
+        skldfjfjl
+    </div>
+        
+</body>
+</html>

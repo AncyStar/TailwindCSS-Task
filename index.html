@@ -50,7 +50,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="flex justify-between items-center">
           <div>
-            <img src="images\Askmeidentity 2.png" />
+            <img src="images\Askmeidentity.png" />
           </div>
           <div class="text-lg">
             <div class="flex justify-between">
@@ -80,99 +80,82 @@
         </div>
       </div>
     </navbar>
-
-    <div class="w-full bg-indigo-800">
-      <div class="container mx-auto px-10 pt-24 text-white flex relative">
-        <div class="flex flex-col space-y-20">
-          <div class="font-righteous text-sm">
-            SUCCESSFUL COACHES ARE VISIONARIES
-          </div>
-          <div class="font-righteous text-6xl">
-            Good <span class="text-indigo-600">coaching</span> <br />is good
-            teaching
-            <br />
-            & nothing else.
-          </div>
-          <div class="space-x-6">
-            <a
-              class="border-2 rounded-md py-3 px-5 text-sm font-righteous"
-              href="#view courses"
-              >View Courses</a
-            >
-            <a class="font-righteous text-sm" href="#consultation"
-              >Get Free Consultation</a
-            >
-          </div>
-          <div class="w-3/4 b-4">
-            <div class="items-center border rounded-md p-1 bg-white">
-              <div class="flex">
-                <input
-                  type="text"
-                  placeholder="What do you want to learn today?"
-                  class="w-4/5 text-black focus:outline-none focus:border-blue-500 font-righteous placeholder:text-sm"
-                />
-                <button
-                  class="flex bg-gradient-to-r from-blue-800 to-violet-500 px-6 py-2 rounded-md"
-                >
-                  <img class="h-4" src="images\Vector (2).png" /><span
-                    class="font-righteous text-md text-white text-sm"
-                    >Search</span
-                  >
-                </button>
+    <div class="min-h-screen w-full bg-indigo-800 relative overflow-hidden flex flex-col justify-between">
+      <!-- Main Container -->
+      <div class="container mx-auto px-10 pt-24 text-white flex justify-between items-center relative flex-grow">
+          <!-- Left Side Content -->
+          <div class="flex flex-col space-y-5 md:w-1/2">
+              <div class="font-righteous text-sm uppercase tracking-wider">
+                  Successful Coaches Are Visionaries
               </div>
+              <h1 class="font-righteous text-5xl leading-snug">
+                  Good <span class="text-indigo-400">coaching</span> is<br> good teaching &<br> nothing else.
+              </h1>
+              <div class="flex items-center space-x-5 w-1/2">
+                <a class="border-2 border-white rounded-md py-2 px-5 text-xs font-righteous hover:bg-white hover:text-indigo-800 transition-all duration-300 flex items-center justify-center" href="#view-courses">
+                    View Courses
+                </a>
+                <a class="font-righteous text-xs  hover:text-gray-300 transition-all duration-300 inline-block align-middle" href="#consultation">
+                    Get Free Consultation
+                </a>
             </div>
+            <br>
+           
+              <div class="mt-2 w-80 border rounded-md p-2 bg-white flex items-center">
+                  <input type="text" placeholder="What do you want to learn today?" class="w-60 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 font-righteous placeholder:text-xs px-2">
+                  <button class="bg-gradient-to-r from-blue-800 to-violet-500 px-3 py-2 font-righteous rounded-md text-xs flex items-center">
+                      <img class="h-3 filter invert mr-1" src="images\Vector (2).png" alt="Search Icon"> Search
+                  </button>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
           </div>
-        </div>
-        <div class="max-w-72 mt-28">
-          <div class="flex">
-            <div>
-              <img class="h-32 w-24" src="images\Group 1000014970.png" />
-            </div>
-            <div class="px-4">
-              <h6 class="font-rowdies">Shyam</h6>
-              <p class="font-righteous text-sm">
-                In a coaching role, you ask the question and rely more on your
-                stadd, who become the experts, to provide the information.
-              </p>
-              <p class="font-inter text-sky-600">4.9</p>
-            </div>
-          </div>
-        </div>
-        <div class="absolute bottom-7 left-96 md:size-46">
-          <img class="h-40" src="images\design2.png" />
-        </div>
-        <div class="relative">
-  <!-- Background Image -->
-  <img
-    class="w-24 h-24 object-center bottom-0"
-    src="images/ladybg(2).png"
-    alt="Background Lady"
-  />
-
-  <!-- Foreground Image (Positioned at Bottom-Left) -->
-  <img
-    class="absolute bottom-0 left-0 w-32 h-16 object-contain"
-    src="images/lady2.png"
-    alt="Foreground Lady"
-  />
+          <!-- Testimonial Section -->
+<div class="absolute top-24 right-1/3 flex items-start space-x-3 text-left max-w-xs">
+  <img class="h-24 mt-2" src="images/Group 1000014970.png" alt="Quote Icon">
+  <div>
+      <h6 class="font-rowdies text-sm font-bold">Shyam</h6>
+      <p class="font-righteous text-xs leading-relaxed text-white">
+          In a coaching role, you ask the <br>questions and rely more on your <br>staff, who become the experts, to <br>provide the information.
+      </p>
+      <p class="font-inter text-sky-400 text-xs mt-2 flex items-center">
+          4.9
+      </p>
+  </div>
 </div>
 
-        </div>
-      </div>
-    </div>
+<!-- Right Side Image Section -->
+<div class="relative w-1/2 flex justify-end items-center">
+  <!-- Background Glow -->
+  <img class="absolute top-1/2 -right-36 transform -translate-y-1/2 h-[150%] w-auto blur-2xl" 
+      src="images/ladybg.png" alt="Background Glow">
+  
+  <!-- Lady Image -->
+  <img class="relative z-10 max-w-xs -bottom-6" src="images/lady2.png" alt="Coach Lady">
+</div> 
+</div>
+<!-- Design2.png  -->
+<div class="absolute bottom-[70px] left-1/2 transform -translate-x-1/2 z-0">
+  <img class="h-[180px] md:h-[220px] opacity-50" src="images/design2.png" alt="Design Element">
+</div>
 
-    <div
-      class="container max-w-full bg-gradient-to-b from-blue-800 to-violet-500"
-    >
-      <div class="flex justify-between items-center px-24 py-3">
-        <img class="w-16 h-7" src="images\spotify.png" />
-        <img class="w-16 h-7" src="images\amazon.png" />
-        <img class="w-16 h-7" src="images\spotify.png" />
-        <img class="w-16 h-10" src="images\cisco.png" />
-        <img class="w-16 h-7" src="images\logitech.png" />
-        <img class="w-16 h-7" src="images\amazon.png" />
-      </div>
-    </div>
+<!-- Footer Section -->
+<div class="relative w-full bg-gradient-to-b from-blue-800 to-violet-500 py-6 flex flex-col items-center z-10">
+  <!-- Footer Brand Logos -->
+  <div class="flex  space-x-32 items-center px-24 py-3">
+    <img class="w-24 h-7" src="images/spotify.png" />
+    <img class="w-16 h-7" src="images/amazon.png" />
+    <img class="w-24 h-7" src="images/spotify.png" />
+    <img class="w-16 h-10" src="images/cisco.png" />
+    <img class="w-16 h-6" src="images/logitech.png" />
+    <img class="w-16 h-7" src="images/amazon.png" />
+</div>
+</div>
+
+  </div>
+  
 
     <div class="bg-gradient-to-b from-transparent to-blue-100 ">
       <div class="container relative mt-12">
@@ -190,7 +173,7 @@
           src="images\Ellipse 118.png"
         />
 
-        <div class="flex flex-wrap justify-center mx-4 my-10">
+        <div class="flex flex-wrap justify-center  mx-4 my-10">
           <!--1-->
           <div class="w-full md:w-1/4 sm:w-1/3 p-4 m-4">
             <div class="bg-white rounded-xl shadow-sm overflow-hidden">
@@ -328,7 +311,7 @@
           </p>
         </div>
 
-          <img class="absolute left-0 mt-20 h-32" src="images/arch.png" />
+          <img class="absolute left-0 -ml-9 mt-20 h-32" src="images/arch.png" />
 
         <div class="flex m-4">
           <div class="w-full md:w-80 sm:w-1/3 p-7 m-4">
@@ -441,14 +424,25 @@
       </div>
     </div>
 
-    <div class="bg-gradient-to-b from-transparent to-blue-100">
-      <div
-        class="container mx-auto px-4 py-20 grid justify-items-center relative"
-      >
-        <div
-          class="w-full md:w-4/5 text-white bg-gradient-to-bl from-fuchsia-500 via-blue-600 to-sky-200 grid justify-items-center rounded-xl z-0"
-        >
-          <div class="p-10 text-center md:w-3/6">
+    <div class="bg-gradient-to-b from-transparent">
+      <div class="container mx-auto px-4 py-20 grid justify-items-center relative">
+        
+        <!-- Main Subscription Box -->
+        <div class="w-full md:w-4/5 text-white bg-gradient-to-bl from-fuchsia-500 via-blue-600 to-sky-200 
+                    grid justify-items-center rounded-xl z-0 relative p-10 overflow-hidden">
+          
+          <!-- Floating Images (Now Without Borders) -->
+          <div class="absolute inset-0">
+            <img class="absolute top-10 left-20 w-12 h-12 rounded-full" src="images/Ellipse(1).png" />
+            <img class="absolute top-10 right-20 w-12 h-12 rounded-full" src="images/Ellipse(4).png" />
+            <img class="absolute top-48 left-36 w-12 h-12 rounded-full" src="images/Ellipse(3).png" />
+            <img class="absolute top-48 right-36 w-12 h-12 rounded-full" src="images/Ellipse(2).png" />
+            <img class="absolute bottom-10 left-20 w-12 h-12 rounded-full" src="images/Ellipse(5).png" />
+            <img class="absolute bottom-10 right-20 w-12 h-12 rounded-full" src="images/Ellipse(6).png" />
+          </div>
+    
+          <!-- Text Content -->
+          <div class="text-center md:w-3/6">
             <h2 class="font-righteous text-3xl pt-10 py-8">
               Subscribe For Get Update <br> Every New Courses
             </h2>
@@ -456,52 +450,40 @@
               20k+ students daily learn with Eduvi. Subscribe for new courses.
             </p>
           </div>
+    
+          <!-- Input Section -->
           <div class="w-1/2 p-10 mb-12">
             <div class="items-center">
               <div class="flex size-full">
                 <input
                   type="text"
-                  placeholder="   What do you want to learn today?"
-                  class="w-4/5 text-sm text-black font-righteous rounded-l-lg opacity-35"
+                  placeholder="  What do you want to learn today?"
+                  class="w-4/5 text-xs text-black font-righteous rounded-l-lg opacity-35"
                 />
-                <button
-                  class="flex bg-blue-800 to-violet-500 rounded-r-lg px-6 py-2 w-50"
-                >
-                  <img src="./image/search.png" /><span
-                    class="font-righteous text-md text-white"
-                    >Search</span
-                  >
+                <button class="flex bg-blue-800 to-violet-500 rounded-r-lg px-6 py-2 w-50">
+                  Search
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <img class="absolute z-10 top-32 w-3/4" src="./image/block4bg.png" />
-        <img
-          class="absolute z-10 bottom-10 left-20 pl-6 hidden sm:block"
-          src="images\Polygon 9.png"
-        />
-        <img
-          class="absolute top-20 pt-4 hidden sm:block"
-          src="images\Polygon 8.png"
-        />
+    
+        <!-- Decorative Polygons -->
+        <img class="absolute z-10 bottom-10 left-20 pl-6 hidden sm:block" src="images/Polygon 9.png" />
+        <img class="absolute top-20 pt-4 hidden sm:block" src="images/Polygon 8.png" />
+        <img class="absolute bottom-[-80px] right-10 hidden sm:block" src="images/Polygon 7.png" />
+    
       </div>
-
-      <div class="">
-        <img
-          class="absolute -top-20 right-20 hidden sm:block"
-          src="images\Polygon 7.png"
-        />
+    </div>
+    
+    <div class="flex justify-center items-center min-h-screen">
         <div class="container mx-auto px-4">
-          <div class="grid justify-items-center m-32">
-            <iframe
-              class="w-3/4 aspect-video rounded-[60px] relative"
-              src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            ></iframe>
-          </div>
-          <img class="" src="" />
+            <div class="flex justify-center items-center m-32">
+                <img class="w-3/4 aspect-video rounded-[60px]" src="images/Group 1000014991.png">
+            </div>
         </div>
-      </div>
+    </div>
+    
 
       <div class="container mx-auto px-4">
         <div class="relative">
@@ -513,7 +495,7 @@
               What our students say about us
             </p>
           </div>
-          <img class="absolute left-20 top-5" src="./image/teselement.png" />
+          <img class="absolute left-20 top-5" src="images\Ellipse 1217.png" />
         </div>
         <div class="py-16">
           <div
@@ -524,7 +506,7 @@
             >
               <div class="absolute -top-10 left-1/2 transform -translate-x-1/2">
                 <img
-                  src="./image/profile.png"
+                  src="images\profile.png"
                   alt="Profile"
                   class="w-20 h-20 rounded-full border-2 border-white shadow-md"
                 />
@@ -545,7 +527,7 @@
             <div class="relative bg-white rounded-lg shadow-lg py-6 px-14 z-20">
               <div class="absolute -top-10 left-1/2 transform -translate-x-1/2">
                 <img
-                  src="./image/profile.png"
+                  src="images\profile.png"
                   alt="Profile"
                   class="w-20 h-20 rounded-full border-2 border-white shadow-md"
                 />
@@ -568,7 +550,7 @@
             >
               <div class="absolute -top-10 left-1/2 transform -translate-x-1/2">
                 <img
-                  src="./image/profile.png"
+                  src="images\profile.png"
                   alt="Profile"
                   class="w-20 h-20 rounded-full border-2 border-white shadow-md"
                 />
@@ -590,83 +572,97 @@
         </div>
         <div class="grid justify-items-end">
           <div class="flex p-14">
-            <img src="./image/Back Arrow.png" />
-            <img src="./image/Arrow .png" />
+            <img src="images\Back Arrow.png" />
+            <img src="images\Front Arrow.png" />
           </div>
         </div>
       </div>
     </div>
 
-    <div
-      class="container mx-auto p-10 bg-gradient-to-tl from-fuchsia-500 via-blue-600 to-sky-600"
-    >
-      <div class="flex justify-center font-righteous gap-20">
-        <div class="max-w-72">
-          <h3 class="text-2xl px-8">Connect</h3>
-          <img src="./image/logo-removebg-preview.png" />
-          <p class="text-md px-8">
-            Sri Jegennath Nivas, 8-1-164/345/A/1, Pragati Colony,
+    <div class="container max-w-full p-10 bg-gradient-to-r from-purple-700 via-indigo-600 to-blue-600">
+      <div class="grid grid-cols-5 gap-10 text-sm font-righteous">
+        
+        <!-- Connect Section -->
+        <div>
+          <h6 class="text-2xl px-8 font-righteous">Connect</h6>
+          <img class="left-0 block mx-auto h-16 max-w-full" src="images/logo.png" alt="Brand Logo" />
+          <p class="text-sm px-8 mt-2 font-righteous">
+            Sri Jegennath Nivas, 8-1-164/345/A/1, Pragati Colony,<br>
             Mailardevpally, Nawab Saheb Kunta, Hyd, 500005
           </p>
         </div>
-        <div class="flex justify-center gap-20">
-          <div>
-            <h3 class="text-2xl">classes</h3>
-            <ul class="text-md mt-7 space-y-2">
-              <li>Classroom courses</li>
-              <li>Virtual classroom courses</li>
-              <li>E-learning courses</li>
-              <li>Video courses</li>
-              <li>offline courses</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-2xl">Community</h3>
-            <ul class="text-md mt-7 space-y-2">
-              <li>Learners</li>
-              <li>Partners</li>
-              <li>Developers</li>
-              <li>Transactions</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-2xl">Quick links</h3>
-            <ul class="text-md mt-7 space-y-2">
-              <li>Home</li>
-              <li>Professional Education</li>
-              <li>Courses</li>
-              <li>Admissions</li>
-              <li>Testimonials</li>
-              <li>Programs</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-2xl">More</h3>
-            <ul class="text-md mt-7 space-y-2">
-              <li>Press</li>
-              <li>Investors</li>
-              <li>Terms</li>
-              <li>Privacy</li>
-              <li>Help</li>
-              <li>Contact</li>
-            </ul>
-          </div>
+    
+        <!-- Classes Section -->
+        <div>
+          <h6 class="text-2xl font-righteous">Classes</h6>
+          <ul class="text-md mt-4 space-y-2">
+            <li>Classroom courses</li>
+            <li>Virtual classroom courses</li>
+            <li>E-learning courses</li>
+            <li>Video courses</li>
+            <li>Offline courses</li>
+          </ul>
+        </div>
+    
+        <!-- Community Section -->
+        <div>
+          <h6 class="text-2xl font-righteous">Community</h6>
+          <ul class="text-md mt-4 space-y-2">
+            <li>Learners</li>
+            <li>Partners</li>
+            <li>Developers</li>
+            <li>Transactions</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+    
+        <!-- Quick Links Section -->
+        <div>
+          <h6 class="text-2xl font-righteous">Quick Links</h6>
+          <ul class="text-md mt-4 space-y-2">
+            <li>Home</li>
+            <li>Professional Education</li>
+            <li>Courses</li>
+            <li>Admissions</li>
+            <li>Testimonials</li>
+            <li>Programs</li>
+          </ul>
+        </div>
+    
+        <!-- More Section -->
+        <div>
+          <h6 class="text-2xl font-righteous">More</h6>
+          <ul class="text-md mt-4 space-y-2">
+            <li>Press</li>
+            <li>Investors</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Help</li>
+            <li>Contact</li>
+          </ul>
         </div>
       </div>
     </div>
-
-    <div class="bg-gradient-to-tl from-fuchsia-500 via-blue-600 to-sky-600 p-5">
+    
+    <!-- Social Media Footer -->
+    <div class="bg-gradient-to-r from-purple-600 via-indigo-700 to-blue-700 p-5">
       <div class="flex justify-center space-x-4">
-        <img src="./image/insta.png" />
-        <img src="./image/whatsapp.png" />
-        <img src="./image/twitter.png" />
-        <img src="./image/linkedin.png" />
-        <img src="./image/youtube.png" />
+        <div class="bg-white p-2 rounded-full flex items-center justify-center w-10 h-10">
+          <img class="h-6" src="images/Instagram.png" alt="Instagram" />
+        </div>
+        <div class="bg-white p-2 rounded-full flex items-center justify-center w-10 h-10">
+          <img class="h-6" src="images/whatsapp.png" alt="WhatsApp" />
+        </div>
+        <div class="bg-white p-2 rounded-full flex items-center justify-center w-10 h-10">
+          <img class="h-6" src="images/twitter.png" alt="Twitter" />
+        </div> <div class="bg-white p-2 rounded-full flex items-center justify-center w-10 h-10">
+          <img class="h-6" src="images/linkedin.png" alt="LinkedIn" />
+        </div> <div class="bg-white p-2 rounded-full flex items-center justify-center w-10 h-10">
+          <img class="h-6" src="images/youtube.png" alt="YouTube" />
+        </div>        
       </div>
-      <p class="text-center text-white font-righteous text-sm">
-        Copyright @ 2023 askmeidentity. All Rights Reserved
+      <p class="text-center text-white font-righteous text-xs mt-3">
+        Copyright © 2023 askmeidentity. All Rights Reserved
       </p>
     </div>
-  </body>
-</html>
+    
